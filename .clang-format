@@ -1,0 +1,19 @@
+---
+BasedOnStyle: LLVM
+
+# Align typedefs and macros
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
+
+# Indentation settings (optional, adjust to your liking)
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Formatting settings for readability (optional)
+ColumnLimit: 80
+AllowShortFunctionsOnASingleLine: InlineOnly
+
+# Other styling preferences
+SpaceBeforeParens: ControlStatements
+BreakBeforeBraces: Allman

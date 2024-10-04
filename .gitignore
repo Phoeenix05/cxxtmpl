@@ -1,0 +1,9 @@
+# ignores object and dep files
+*.[od]
+
+# !!! CHANGE ME
+/myprog
+
+/.cache/
+/compile_commands.json
+/.ninja_log

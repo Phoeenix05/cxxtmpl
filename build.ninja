@@ -1,0 +1,11 @@
+rule cc
+    depfile = $out.d
+    command = clang -MD -MF $out.d -Iinclude/ -c $in -o $out
+
+rule link
+    command = clang $in -o $out
+
+build src/main.o: cc src/main.c
+
+build myprog: link src/main.o
+default myprog
